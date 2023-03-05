@@ -15,8 +15,18 @@ List some possible tips that are nearby palindromes.
 ## Example
 
 ```shell
-cargo run
-
+% cargo run
+   Compiling palitip-rs v0.1.0 (/home/user/src/rust/palitip-rs)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+     Running `target/debug/palitip-rs`
+Enter the current bill total:  32.15
+Enter percentage tip to add: 20
+You entered 32.15 and wish a tip of approx +20%
+Some possible tips are:
+$37.73
+$38.83
+$39.93
+$40.04
 ```
 
 ## Bugs / Missing Features
