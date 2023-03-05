@@ -19,10 +19,11 @@ cargo run
 
 ```
 
-## Bugs
+## Bugs / Missing Features
 
-The program generates some false positives because my method is flawed
-in assuming that the trailing zero would be preserved when converting
-an f32 to a string.
+ - needs some UI polish
+ - should have an api for an alternative to the cli only
 
-Next version will try to fix this.
+## Dependencies
+
+Just the std::io library
