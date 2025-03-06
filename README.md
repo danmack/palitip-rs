@@ -16,17 +16,16 @@ List some possible tips that are nearby palindromes.
 
 ```shell
 % cargo run
-   Compiling palitip-rs v0.1.0 (/home/user/src/rust/palitip-rs)
-    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
      Running `target/debug/palitip-rs`
 Enter the current bill total:  32.15
 Enter percentage tip to add: 20
 You entered 32.15 and wish a tip of approx +20%
-Some possible tips are:
-$37.73
-$38.83
-$39.93
-$40.04
+Some possible palindrome totals are:
+add $5.58 as a tip to get $37.73 total
+add $6.68 as a tip to get $38.83 total
+add $7.78 as a tip to get $39.93 total
+add $7.89 as a tip to get $40.04 total
 ```
 
 ## Bugs / Missing Features

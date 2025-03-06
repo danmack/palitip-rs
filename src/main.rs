@@ -35,11 +35,11 @@ fn main() {
     };
 
     println!("You entered {base_price} and wish a tip of approx +{perc_tip}%");
-    println!("Some possible tips are:");
+    println!("Some possible palindrome totals are:");
 
     let v: Vec<f32> = nearby_palindromes(base_price, perc_tip);
     for (_pos, e) in v.iter().enumerate() {
-	println!("${:02}", e);
+	println!("add ${:.2} as a tip to get ${:.2} total", (e - base_price), e);
     }
 }
 
